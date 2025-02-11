@@ -1,0 +1,13 @@
+h1{
+    color: rgb(48, 126, 195);
+    font-family:Arial, Helvetica, sans-serif
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(249, 239, 226);
+    padding: 15px;
+    border-left:5px solid rgb(243, 193, 56) ;
+}

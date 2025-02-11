@@ -1,0 +1,29 @@
+ul{
+    background-color:aquamarine;
+}
+
+ul{
+    background-color: purple;
+}
+
+h1{
+    background-color: red !important;
+}
+div{
+    background-color: gold;
+}
+li {
+    color: white;
+}
+#sc{
+    color: red;
+    background-color: black;
+}
+.demo-class{
+    color: aqua;
+    background-color: yellow;
+}
+.text-transform{
+    font-size: 13px;
+    
+}
