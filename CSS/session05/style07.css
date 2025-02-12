@@ -1,0 +1,38 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+th{
+    color: white;
+    background-color: #027bff;
+}
+#View{
+    color: white;
+    background-color: #28a745;
+    border:0px solid #28a745;
+}
+#Update{
+    color: #513d02;
+    background-color:#ffc009;
+    border:0px solid #ffc009;
+    
+}
+#Delete{
+    color: white;
+    background-color:#dc3545;
+    border:0px solid #dc3545;
+    
+}
+table{
+    width: 90%;
+    border: 1px solid #dddddd;
+}
+#mot{
+    background-color: white;
+}
+#hai{
+    background-color: white;
+}

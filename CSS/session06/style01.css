@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mot{
+    background-color: #007bff;
+    text-align: center;
+    color: white;
+    padding: 20px ;
+}
+
+img{
+    margin-left: 6cm;
+}
+div{
+    background-color:#f1f1f1 ;
+    padding: 10px;
+    
+}
+#hai{
+    background-color: white;
+    height: 150px;
+}
+.ba{
+    color: white;
+    text-decoration: solid  ;
+}
