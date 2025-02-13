@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#eaeaea ;
+    color: #2f235a;
+}
+.mot{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius:3px ;
+    width: 150px;
+    height: 30px;
+}
+.hai{
+    background-color: #eaeaea;
+    border: 1px solid #c1bcd1;
+    border-radius: 3px;
+    margin-left: 8px;
+    height: 30px;
+    width: 150px;
+    color: #2f235a;
+}

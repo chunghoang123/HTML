@@ -1,0 +1,28 @@
+* {  
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 16px;  
+    color: #080415;
+    box-sizing: border-box;
+    padding: 0;
+    width: 19cm;
+}  
+
+div {  
+    border: 1px solid rgb(227, 227, 227);  
+    padding: 18px;  
+    margin-right: 2cm;  
+}  
+i {  
+    position: relative;  
+    left: 650px;   
+    color: rgb(120, 120, 120);  
+}  
+
+.accordion-header , .accordion-footer {  
+    border-top-left-radius: 8px;   
+    border-top-right-radius: 8px;   
+}  
+
+.accordion-item2{  
+    background-color: rgb(209, 226, 255);  
+}  

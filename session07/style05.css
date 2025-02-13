@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#ffffff ;
+}
+.mot{
+    text-align: center;
+    font-size: 24px;
+    border: 3px solid #ed243f;
+    background-color: #ed243f;
+    color: white;
+    padding: 20px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    margin-top: 60px;
+    width: 8cm;
+}
+img{   
+    position: absolute;
+    top: 43px;
+    left: 280px;
+   
+    
+}
+.bon{
+    text-align: center;
+    width: 8cm;
+    border-bottom: 2px solid #dcdcdc;
+    margin-left: 25px;  
+   
+}
+.hai{
+    font-weight: bolder;
+    color:#696969 ;
+    font-size: 20px;
+}
+.ba{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #ff8c00;
+}
+.sau{
+    text-align: center;
+    width: 8cm;
+    margin-left: 25px;  
+    color:#696969 ;
+    font-size: 20px;
+}
+.bay{
+    text-align: center;
+    width: 8cm;
+    border: 3px solid #c0162c;
+    background-color: #c0162c;
+    color: white;
+    padding: 15px;
+    border-radius: 40px;
+    margin-left: 15px;
+    font-size: 24px;
+}
+.tam{
+    text-align: center;
+    width: 4cm;
+    border: 3px solid #c0162c;
+    background-color:white ;
+    color: #c0162c;
+    padding: 10px;
+    border-radius: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nam{
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px #f1f1f1;
+    width: 9cm;
+    padding: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 7px;
+    border-radius: 40px;
+    background-color:#ffffff ;
+    border-left: 3px solid #f1f1f1;
+    
+}
