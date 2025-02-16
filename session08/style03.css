@@ -1,0 +1,39 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+
+}
+.mot{
+    margin-left: 30px;
+    border-right: 2px solid #e0e4e6;
+    padding: 20px;
+    padding-top: 0px;
+    width: 280px;
+}
+h3{
+    font-size: 24px;
+    margin-left: 50px;
+    border-bottom: 3px solid #f78989;
+    padding-bottom: 10px;
+    width: 200px;
+    margin-bottom: 40px;
+}
+.hai{
+    color:#7f8895;
+    font-size: 16px;
+}
+.ba{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom:30px ;
+}
+button{
+    color:#f78f8f ;
+    background-color:#ffffff ;
+    border: 1px solid #f78989;
+    border-radius: 2px;
+    font-size: 10px;
+    width: 60px;
+    height: 30px;
+}

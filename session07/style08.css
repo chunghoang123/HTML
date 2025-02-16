@@ -1,0 +1,40 @@
+.project-container{
+    width: 400px;
+    border: 1px solid #e3e5ec;
+    border-radius: 10px;
+    padding: 30px;
+}
+.project-container h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.project-container button{
+    background-color: #ffeeca;
+    color: #c34814;
+    border: 1px solid #ffcc85;
+    font-size: 16px;
+    margin-bottom: 25px;
+    padding: 3px 15px;
+    border-radius: 10px;
+}
+.progress-title {
+    position: relative;
+
+}
+.progress-title .progress-value{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.progress-bar{
+    background-color: #ffeeca;
+    height: 5px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    width: 76%;
+    background-color:#e57809;
+    height: 100%;
+    border-radius: 5px;
+}
