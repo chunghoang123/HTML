@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    width: 900px;
+    color: white;
+}
+.mot{
+    width: 900x;
+    height: 450px;
+    display: flex;
+    align-items:baseline;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.hai{
+width: 910px;
+background-color: #3498db;
+border: 3px;
+line-height: 20px;
+padding: 10px;
+flex-wrap:wrap ;
+}
+.ba{
+    width: 300px;
+    background-color: #2ecc71;
+    height: 400px;
+    padding: 10px;
+}
+.bon{
+    width: 590px;
+    background-color: #e74c3c;
+    height: 400px;
+    padding: 10px;
+    
+}
+.nam{
+    width: 910px;
+    background-color: #9b59b6;
+    border: 3px;
+    line-height: 20px;
+    padding: 10px;
+    flex-wrap:wrap ;
+    }

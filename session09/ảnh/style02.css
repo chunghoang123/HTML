@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+}
+.hai{
+    width: 850px;
+    height:80px;
+    background-color: #f1f1f1;
+    border:none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 15px;
+}
+.hai div{
+    width: 200px;
+    line-height:50px ;
+    height: 60px;
+    text-align: center;
+    background-color: #3498db;
+    border-radius: 5px;
+}
+.mot{
+    border: 3px solid black;
+    width: 855px;
+}

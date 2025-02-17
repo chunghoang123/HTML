@@ -1,0 +1,1 @@
+@keyframes spinAround{0%{transform:rotate(0)}to{transform:rotate(359deg)}}.spinner{animation:spinAround .5s linear infinite;border-color:transparent transparent #dbdbdb #dbdbdb;border-radius:290486px;border-style:solid;border-width:.25em;content:"";display:block;height:3em;position:relative;width:3em}

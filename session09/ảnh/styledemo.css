@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+align-items: center;
+   height: 400px; 
+}
+
+.container .child {
+    background-color: rgb(255, 66, 98);
+    width: 200px;
+
+    text-align: center;
+    line-height: 200px;
+    border: 10px solid white;
+}
+.mot{
+    border: 5px solid black;
+}

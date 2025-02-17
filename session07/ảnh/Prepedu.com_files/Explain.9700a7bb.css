@@ -1,0 +1,1 @@
+.explain-content *{font-family:Baloo\ 2,cursive!important;font-size:1rem!important}.explain-content ol li:before{color:#fff;content:counter(li) ". ";display:inline-block;list-style:none;width:1em}.explain-content ol li{counter-increment:li;list-style:none!important}

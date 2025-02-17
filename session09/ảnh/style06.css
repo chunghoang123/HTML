@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ffffff;
+    color:#f6f7f7 ;
+}
+.mot{
+    width: 750px;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.hai div{
+    width: 300px;
+    height: 110px;
+    display:flex;
+    justify-content:center;
+    padding:15px ;
+    margin-top: 10px;
+    background-color: #2c3e50;
+}
+.ba div{
+    width: 200px;
+    height: 50px;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:flex-start;
+    justify-content:center;
+    padding:15px ;
+    border: none;
+    background-color: #2c3e50;
+    margin-top: 10px;
+}
