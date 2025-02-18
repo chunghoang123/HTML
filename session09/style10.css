@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img {
+    width: 20px;
+    border-radius: 50px;
+}
+
+.mot {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #009be5;
+    height: 50px;
+    padding: 20px;
+    gap: 20px;
+    color: #fffefd;
+}
+.hai{
+    color:#99d5f1;
+}
+.ba{
+    background-color: #009be5;
+    display: flex;
+    justify-content: space-between;
+    color: #fffefd;
+}
+.ba h1{
+    padding: 20px;
+    
+}
+.bon{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.bon button{
+    background-color: #009be5;
+    border: 2px solid #fffefd ;
+    border-radius: 5px;
+    height: 25px;
+    padding: 3px;
+    color: #fffefd;
+}
+.bon i{
+    margin-top: 1px;
+    font-size: 25px;
+}
+.nam{
+    display: flex;
+    background-color: #009be5;
+    color: #fffefd;
+    gap: 30px;
+    justify-content: flex-start;
+    padding: 20px;
+    height: 62px;
+}
+.nam a{
+    color: #99d5f1;
+    text-decoration: none;
+    
+}
+
+.nam #mot{
+    color: #fffefd;
+    border-bottom: 5px solid #fffefd;
+    border-radius: 1px ;
+    padding-bottom: 20px;
+}
+.sau{
+
+    display: flex;
+    border: 3px solid #dee2e4;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+    width: 900px;
+    margin: auto;
+    margin-top: 100px;
+   line-height: 40px;
+    padding: 8px;
+    justify-content:space-between ; 
+}
+.sau #hai{
+    background-color: #eaeff1;
+    height: 800px;
+}
+.bay{
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color:#ababab;
+}
+.bay button{
+    background-color:#009be5;
+    color:#fffefd;
+    border: 1px solid #009be5;
+    border-radius: 8px;
+    width: 100px;
+}
+.bay i{
+    margin-top: 12px;
+    font-size: 20px;
+}
+.bay #ba{
+    color: #2e2e2e;
+}
+.bay #bon{
+    color: #707070;
+}
+.tam{
+    display: flex;
+    border: 3px solid #dee2e4;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px ;
+    width: 900px;
+    margin: auto;
+    line-height: 100px;
+    padding-left: 350px;
+  color:#ababab;
+}

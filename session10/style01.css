@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: #e5e5e5;
+}
+.mot{
+    display:flex;
+    width: 1000px;
+}
+.hai{
+    font-family: "Brush Script MT", cursive;
+    font-size: 50px;
+    color: #030303;
+}
+.ba{
+    display: flex;
+    gap: 10px;
+}
+.ba a{
+    color: #787878;
+ 
+}
+.ba .bon{
+    color: #2b2b2b;
+}
+a{
+    text-decoration: none;
+}
+button{
+    width: 80px;
+    line-height: 20px;
+    background-color: #8d939e;
+    color: #d0d2d7;
+    border-radius: 5px;
+    border: none;
+}
+i{
+    background-color: #8d939e;
+    color: #d0d2d7;
+}

@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mot{
+    background-color: #f9fafc;
+
+}
+.hai{
+    border: 1px solid #939597;
+    position: absolute;
+    color: #939597;
+    top: 23px;
+    left: 310px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.mot img{
+    border-radius: 5px;
+}
+.ba img{
+    width: 40px;
+    border-radius: 50px;
+}
+.ba{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.bon{
+    padding: 10px;
+    color: #8a8b8c;
+}
+.nam{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.sau{
+    padding: 10px;
+    color: #7b7a7b;
+}

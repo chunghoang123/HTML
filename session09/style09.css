@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.container{
+    margin-bottom: 20px;
+}
+
+.container:nth-of-type(1){
+background-color: pink;
+}
+.row{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.row .child{
+    background-color: pink;
+    width: calc(33.333% - 20px);
+}
+.blog-container{
+    height: 200px;
+    background-image: url("./ảnh/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.blog-container .title{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
