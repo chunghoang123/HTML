@@ -1,0 +1,101 @@
+header{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+header div{
+    background-color: #ffa437;
+    height: 200px;
+    width: 50%;
+}
+main{
+    background-color: #daec00;
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+
+}
+section{
+    display: flex;
+    gap: 30px;
+}
+section div{
+    background-color: #4a89cf;
+    width: 35%;
+    height: 300px;
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    gap: 30px;
+}
+footer div{
+    background-color: #e3e3e3;
+    width: 25%;
+    height: 200px;
+    margin-top: 30px;
+}
+@media screen and (max-width: 1200px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    header div{
+        width: 100%;
+        height: 100px;
+    }
+    main{
+        height: 300px;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+    }
+    section div{
+        width: 100%;
+        height: 150px;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer div{
+        width:calc(50% - 16px);
+        height: 150px;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    header div{
+        width: 100%;
+        height: 100px;
+    }
+    main{
+        height: 150px;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+    }
+    section div{
+        width: 100%;
+        height: 200px;
+    }
+    footer{
+        display: flex;
+       flex-direction: column;
+    }
+    footer div{
+        width:100%;
+        height: 200px;
+
+    }
+}

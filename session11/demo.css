@@ -1,0 +1,42 @@
+.container{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+ 
+}
+.child{
+    font-size: 30px;
+    background-color: hotpink;
+    color: black;
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    line-height: 150px;
+    border: 1px solid white;
+    
+}
+@media screen and (max-width: 1024px) {
+    .container{
+        flex-wrap: wrap;
+
+    }
+    .child{
+        width: calc(50% - 20px);
+
+    }
+
+    
+}
+@media screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+
+    }
+    .child{
+        width: calc(50% - 20px);
+        
+    }
+
+    
+}
