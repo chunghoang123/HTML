@@ -1,0 +1,26 @@
+#max{
+    background-color: green ;
+    color: white !important;
+    margin-left: 70px;
+}
+#min{
+    background-color: red ;
+    color: white !important;
+}
+button {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+p{
+    font-size: 15px;
+}
+#max:hover{
+    transform: scale(1.1);
+    background-color: rgb(2, 118, 2) ;
+}
+min:hover{
+    transform: scale(1.1);
+    background-color: rgb(202, 5, 5) ;
+}
