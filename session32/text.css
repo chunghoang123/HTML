@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center
+
+
+}
+.img{
+    width: 240px;
+    height: 240px;
+    background-size:cover ;
+    background-position: center center;
+    background-repeat:no-repeat ;
+    
+}
+
+.modal{
+    width: 100vw;;
+    height: 100vh;
+    background-color:rgb(234, 228, 228,0.431);
+    position : absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 80%;
+}
