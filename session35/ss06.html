@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./ss06.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <h1>Danh mục</h1>
+            <button class="add">
+                Thêm mới danh mục
+            </button>
+        </header>
+
+        <section class="add_filter">
+            <select name="status" class="status">
+                <option value selected disabled hidden>Chọn Trạng Thái</option>
+                <option value="all">Tất cả</option>
+                <option value="online">Đang Hoạt Động</option>
+                <option value="offline">Ngừng Hoạt Động</option>
+            </select>
+            <input type="text" class="search"
+                placeholder="Tìm kiếm danh mục theo tên">
+            <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+        </section>
+
+        <section class="addCategory display">
+
+            <span class="addCategory_title">Thêm mới danh mục <span
+                    class="addCategory_cancel">X</span></span>
+            <label for="id">Mã danh mục</label>
+            <input type="text" id="id">
+            <p class="dataCheck">Mã danh mục không được để trống</p>
+            <label for="name">Tên danh mục</label>
+            <input type="text" id="name">
+            <p class="dataCheck">Tên danh mục không được để trống</p>
+
+            <label for="addStatus">Trạng thái</label>
+            <div class="radioContainer">
+                <input type="radio" name="addStatus" value="online" checked>
+                <label for>Đang hoạt động</label>
+                <input type="radio" name="addStatus" value="offline">
+                <label for>Ngừng hoạt động</label>
+                
+                <hr>
+            </div>
+            <div class="addOption">
+                <button class="addCancel">Huỷ</button>
+                <button class="addConfirm">Thêm</button>
+            </div>
+
+        </section>
+        <table class="list"  cellspacing="0">
+        
+        </table>
+        <script src="./ss06.js"></script>
+    </body>
+</html>

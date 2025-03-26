@@ -1,0 +1,218 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add{
+    padding: 8px;
+    width: 170px;
+    height: 45px;
+    background-color: rgb(17, 159, 236) !important;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+.add:hover{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+.add_filter{
+    display: flex;
+    gap: 7px;
+    justify-content: end;
+}
+.status{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: rgb(154, 152, 152) ;
+    text-align: center;
+    cursor: pointer;
+}
+.search{
+    
+    padding-left: 8px;
+    border-radius: 8px;
+    width: 230px;
+    border: 1px solid rgb(154, 152, 152);
+}
+#searchIcon{
+    position: relative;
+    top: 12px;
+    right: 33px !important;
+    color: rgb(154, 152, 152);
+}
+.addCategory{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 500px;
+    padding: 15px;
+    background-color: white !important;
+    border: 1px solid rgb(234, 232, 232) ;
+    border-radius: 8px;
+    position: fixed;
+    top: 170px;
+    z-index: 1000;
+}
+.addCategory_cancel:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.display{
+   display: none; 
+}
+.display_show{
+    display: flex;
+}
+.fa-circle{
+    scale: 0.5;
+    margin-right: 5px;
+}
+.circleGreen{
+    color: rgb(22, 197, 22);
+}
+.circleRed{
+    color: red;
+}
+.tRow .offlineCss{
+    color: red ;
+    font-weight: bold;
+    background-color: rgba(235, 93, 93, 0.179);
+    padding: 3px 10px 4px 7px;
+    border-radius: 10px;
+}
+
+.tRow .onlineCss{
+    color: rgb(7, 144, 7) ;
+    font-weight: bold;
+    background-color: rgba(181, 230, 181, 0.445);
+    padding: 3px 10px 4px 7px;
+    border-radius: 10px;
+}
+.fa-trash{
+    color: red;
+    cursor: pointer;
+}
+.fa-trash:hover{
+    transform: scale(1.1);
+}
+.fa-pen{
+    color: rgb(226, 164, 7);
+}
+.list{
+    margin-top: 15px;
+    color: rgb(83, 82, 82);
+}
+.tRow{
+    line-height: 50px;
+    color: black ;
+    font-weight: 540;
+}
+.list td{
+  padding-left: 10px  ;
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+.statusRow{
+    width: 260px;  
+}
+.funcRow{
+    text-align: center;
+}
+.funcRow td{
+    text-align: center;
+}
+#th{
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 33px;
+    padding: 10px;
+    background-color: rgb(240, 240, 241);
+}
+.addCategory_title{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.addCategory_title span{
+    font-weight: bold;
+    color: rgb(118, 115, 115);
+    cursor: pointer;
+}
+.addCategory label{
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 15px;
+    color: rgb(123, 121, 121);
+}
+#id{
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid rgb(191, 189, 189);
+}
+#name{
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid rgb(191, 189, 189);
+}
+.radioContainer label{
+    color: rgb(95, 94, 94);
+    font-weight: 550;
+}
+.addOption button{
+    margin-top: 15px;
+    height: 35px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+.addOption{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.addCancel{
+    border: 1px solid rgb(200, 199, 199);
+    cursor: pointer;
+    background-color: white;
+    width: 10%;
+}
+.addConfirm{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(17, 159, 236);
+    color: white;
+    width: 15%;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.focused{
+    background-color: rgba(122, 120, 120, 0.382) ;
+}
+.th_bg{
+    background-color: rgba(166, 166, 166, 0.756) !important;
+}
+.invalid{
+    border: 1px solid red !important;
+}
+.addCategory p{
+    color: red;
+    line-height: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    display: none;
+}

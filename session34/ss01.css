@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+form{
+    
+    border: 1px solid #ccc;
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+div{
+    line-height: 50px;
+}
+button{
+    width: 420px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+input{
+    width: 420px;
+    height: 15px;
+    border-radius: 5px;
+}

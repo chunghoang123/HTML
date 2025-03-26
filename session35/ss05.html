@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý danh mục</title>
+    <link rel="stylesheet" href="./ss05.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <h1>Quản lý danh mục</h1>
+    <button class="add">Thêm danh mục</button>
+</header>
+
+<section class="add_filter">
+    <select class="status">
+        <option value="all">Tất cả trạng thái</option>
+        <option value="online">Đang hoạt động</option>
+        <option value="offline">Ngừng hoạt động</option>
+    </select>
+    <input type="text" class="search" placeholder="Tìm kiếm danh mục">
+</section>
+
+<section class="addCategory">
+    <h2>Thêm / Sửa danh mục</h2>
+    <label>Mã danh mục:</label>
+    <input type="text" id="id">
+    
+    <label>Tên danh mục:</label>
+    <input type="text" id="name">
+
+    <label>Trạng thái:</label>
+    <div>
+        <input type="radio" name="status" value="online" checked> Đang hoạt động
+        <input type="radio" name="status" value="offline"> Ngừng hoạt động
+    </div>
+
+    <div class="addOption">
+        <button class="addCancel">Hủy</button>
+        <button class="addConfirm">Lưu</button>
+    </div>
+</section>
+
+<table class="list">
+    <tr>
+        <th>Mã</th>
+        <th>Tên danh mục</th>
+        <th>Trạng thái</th>
+        <th>Hành động</th>
+    </tr>
+</table>
+
+<script src="./ss05.js"></script>
+</body>
+</html>
