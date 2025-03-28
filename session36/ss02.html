@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bạn thích món nào nhất?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">    
+    <link rel="stylesheet" href="./ss02.css">
+</head>
+<body>
+    <h2>Bạn thích món nào nhất? 🍜</h2>
+    <div class="food-container">
+        <div class="food-item" id="bunbo">
+            <img src="./ảnh/Screenshot 2025-03-28 093714.png" alt="Bún bò Huế">
+            <div class="food-info">
+                <h3>Bún bò Huế</h3>
+                <p><span id="like-bunbo">0</span> <i class="fa-solid fa-heart" style="color: #d41c1c;"></i> lượt thích</p>
+                <button onclick="likeFood('bunbo')">Thích +1</button>
+            </div>
+        </div>
+        <div class="food-item" id="pho">
+            <img src="./ảnh/Screenshot 2025-03-28 093719.png" alt="Phở bò Hà Nội">
+            <div class="food-info">
+                <h3>Phở bò Hà Nội</h3>
+                <p><span id="like-pho">0</span> <i class="fa-solid fa-heart" style="color: #d41c1c;"></i> lượt thích</p>
+                <button onclick="likeFood('pho')">Thích +1</button>
+            </div>
+        </div>
+        <div class="food-item" id="comtam">
+            <img src="./ảnh/Screenshot 2025-03-28 093726.png" alt="Cơm tấm Sài Gòn">
+            <div class="food-info">
+                <h3>Cơm tấm Sài Gòn</h3>
+                <p><span id="like-comtam">0</span> <i class="fa-solid fa-heart" style="color: #d41c1c;"></i> lượt thích</p>
+                <button onclick="likeFood('comtam')">Thích +1</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./ss02.js">
+
+    </script>
+</body>
+</html>
